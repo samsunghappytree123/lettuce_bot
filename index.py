@@ -125,7 +125,7 @@ async def on_message(message):
         conn = pymysql.connect(
                 user='root', 
                 passwd='0317', 
-                host='222.238.199.120', 
+                host='ip', 
                 db='lettuce', 
                 charset='utf8'
             )
